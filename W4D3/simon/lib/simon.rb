@@ -31,7 +31,7 @@ class Simon
   def show_sequence
     self.add_random_color
     @seq.each do |color|
-      systeam("clear")
+      system("clear")
       puts color
       sleep(1)
     end
