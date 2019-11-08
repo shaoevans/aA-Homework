@@ -1,4 +1,4 @@
-class Chef
+sclass Chef
   attr_reader :name
 
   def initialize(name)
